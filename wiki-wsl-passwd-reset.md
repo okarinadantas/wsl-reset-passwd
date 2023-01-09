@@ -1,4 +1,4 @@
-##Reset de senha WSL
+## Reset de senha WSL
 
 ----------
 
@@ -8,10 +8,12 @@ Se você assim como eu acha que vai sempre lembrar senhas fáceis e por isso nun
 
 **#2 Abra o cmd/terminal e digite o comando:**
 
-```ubuntu config — default-user root
+~~~shell
+ubuntu config — default-user root
 ubuntu
 whoami (só pra ter certeza que você está no root)
-passwd seuUserAqui (informa o user que você precisa fazer o reset)```
+passwd seuUserAqui (informa o user que você precisa fazer o reset)
+~~~
 
 **#2.1 Digita a senha nova.**
 
@@ -27,7 +29,8 @@ passwd seuUserAqui (informa o user que você precisa fazer o reset)```
 
 ------
 
-Exemplo(https://miro.medium.com/max/640/1*5ZwLBpEoVsjFfbPZLTen-g.webp)
+![Na imagem to usando meu user okarina, por favor não confunda com um comando
+](https://miro.medium.com/max/640/1*5ZwLBpEoVsjFfbPZLTen-g.webp)
 
 Agora é só voltar ao Ubuntu(WSL) e se divertir no sudo -su ;)
 
